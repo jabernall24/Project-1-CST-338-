@@ -47,11 +47,11 @@ Course Average:68.75
 		SCD.readData("test1.txt");
 
 		SCD.addInstructor(700, "E. Tao", "tao@csumb.edu", "777-777-1234");
-		SCD.addCourse(300, "CST300 – ProSem", 70, "BIT 110");
-		SCD.addCourse(499, "CST499 – iOS Dev", 15, "BIT 104");
+		SCD.addCourse(300, "CST300 â€“ ProSem", 70, "BIT 110");
+		SCD.addCourse(499, "CST499 â€“ iOS Dev", 15, "BIT 104");
 
 		System.out.println("\n===== Error Messages =====");
-		SCD.addCourse(306, "CST306 – GUI Dev", 25, "BIT 120");
+		SCD.addCourse(306, "CST306 â€“ GUI Dev", 25, "BIT 120");
 
 		System.out.println("\n===== Detailed Course Info =====");
 		SCD.courseInfo(306);
